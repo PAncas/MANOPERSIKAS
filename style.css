@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
   }
   
   h1 {
@@ -147,11 +147,39 @@
 }
 
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .fa-youtube{
   color:red;
+}
 
+.fa-facebook{
+  color:#4267B2;
+}
+
+.fa-instagram{
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  border-radius: 12px;
+  padding: 2px;
+}
+
+
+.footer {
+  background: #000000;
+  opacity:1;
+  filter:Alpha(opacity=60); /* IE8 and earlier */
+  margin-top: 2em;
+  float: left;
+  width: 800px;
+  height: 175px;
+  clear:both
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.0em;
+  background-color: rgba(0,0,0,0.6);
+}
 
 
