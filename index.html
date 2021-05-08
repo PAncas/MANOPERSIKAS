@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mano periskas</title>
+    <title>Mano persikas</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
@@ -17,31 +17,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="buttoncontainer">
-        <button class="button-2">Apie</button>
-        <button class="button-2">Produktai</button>
-        <button class="button-2">Kainos</button>
-        <button class="button-2">Kontaktai</button>
-        <button class="button-3">Prisijungti</button>
-    </div>
-    <div>
+    <header>
+      <img class="logo" src="images/logo.svg" alt="logo">
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#"><button>Apie</button></a></li>
+          <li><a href="#"><button>Produktai</button></a></li>
+          <li><a href="#"><button>Kainos</button></a></li>
+          <li><a href="#"><button>Kontaktai</button></a></li>
+        </ul>
+      </nav>
+      <a class="login" href="#"><button class="login">Prisijungti</button></a>
+    </header>
+    <main class="main_container">
+      <div class="text_container">
+        <p><h1>Mano Persikas</h1></p> 
+        <p><h1>Ne Apelsinas</h1></p>
+        <p>Random text random text random text random text random text random text
+          Random text random text random text random text random text random text
+        </p>
+        <button>Daugiau...</button>
+      </div>
+      <div class="text_container">
+        <img src="images/peach_image.jpg" alt="peach" style="width: 100%;">
+      </div>
+      <div class="grid_container" style="justify-content: center;">
+        <div class="row-3">Funkcinė programa</div>
+        <div class="row-3">Estetinė programa</div>
+        <div class="row-3">Mitybos dalis</div>
+      </div>
       
-    </div>
-    <section class="main">
-
-    </section>
+    </main>
+    <footer>
+      <div class="row-2">
+        <a style="col-2" href="#" class="fa fa-facebook"></a>
+        <a style="col-2" href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+      <div class="row-2">
+        <p class="copyright">© Mano Persikas 2021</p>
+      </div>
+      
+    </footer>
   </body>
-  <footer>
-    <div>
-          <div class="buttonsoc">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
-          </div>
-          <div>
-            <p class="copyright">© Mano Persikas 2021</p>
-          </div>
-        </div>
-    </div>
-  </footer>
+
 </html>
